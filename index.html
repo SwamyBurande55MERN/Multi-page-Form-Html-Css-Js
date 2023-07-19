@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multi-Step Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  
+  <div class="progress-bar" ></div> <!--Progress bar-->
+  <h2 class="Heading">Multi Page Form Using HTML + CSS + JS </h2>
+  <div class="container">
+    <div class="navigation">
+      <button id="prevBtn" onclick="prevPage()">Previous</button>
+      <button id="nextBtn" onclick="nextPage()">Next</button>
+    </div>
+    <form id="form" onsubmit="submitForm(event)">
+      <!-- Page 1 -->
+      <div class="page">
+        <h2>Page 1</h2>
+        <div> <input type="text" id="firstName" placeholder="First Name" required> </div>
+        <div> <input type="text" id="lastName" placeholder="Last Name" required> </div>
+        <div>  <input type="email" id="email" placeholder="Email Address" required> </div>
+        <div>  <input type="password" id="password" placeholder="Password" required> </div>
+      </div>
+      
+      <!-- Page 2 -->
+      <div class="page">
+        <h2>Page 2</h2>
+        <div><input type="date" id="dob" placeholder="Date of Birth" required></div>
+        <div><input type="text" id="gender" placeholder="Gender" required></div>
+        <div><input type="tel" id="phone" placeholder="Phone Number" required></div>
+        <div><input type="text" id="address" placeholder="Address" required></div>
+      </div>
+      
+      <!-- Page 3 -->
+      <div class="page">
+        <h2>Page 3</h2>
+       <div><input type="text" id="education" placeholder="Education Level" required></div>
+       <div><input type="text" id="employment" placeholder="Employment Status" required></div>
+       <div><input type="number" id="income" placeholder="Annual Income" required></div>
+       <div><input type="text" id="maritalStatus" placeholder="Marital Status" required></div>
+      </div>
+      
+      <!-- Summary Page -->
+      <div class="page">
+        <h2>Summary</h2>
+        <div id="summary"></div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+
+.container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 3rem;
+      box-shadow: 1px 2px 4px gray;
+  margin : 2rem auto;
+    }
+    
+    .page {
+      display: none;
+    }
+    
+    input{
+      width : 250px;
+      margin : 5px 0px;
+      height : 20px;
+      box-shadow : 1px 2px 4px;
+      border: white;
+    }
+
+    .Heading{
+      margin-left: 35%;
+    }
+
+    button{
+      height: 35px; 
+      text-align: center;
+      width : 150px;
+      color: white;
+      background-color: rgb(89, 183, 237);
+      border: none;
+      font-size: large;
+    }
+
+    button:hover{
+      box-shadow: 1px 2px 4px rgb(43, 40, 223);
+    }
+
+    .page.active {
+      display: block;
+      border: 1px solid black;
+      margin : 100px auto;
+      text-align: center;
+      padding-bottom: 30px;
+      padding-top: 30px;
+      box-shadow : 1px 2px 4px;
+      border: white;
+      background-color: rgb(255, 255, 74);
+    }
+    
+    .progress-bar {
+      width: 0%;
+      height: 5px;
+      background-color: #007bff;
+    }
+    
+    .navigation {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    button {
+      padding: 10px 20px;
+    }
+    
+    #summary {
+      margin-bottom: 20px;
+    }
+    
+    
